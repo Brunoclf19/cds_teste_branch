@@ -1,3 +1,4 @@
+import test
 def get_operation():
     op = input("Operação: ")
 
@@ -6,6 +7,7 @@ def get_operation():
 def gether_data():
     n1 = input("Primeiro valor: ")
     n2 = input("Segundo valor: ")
+    
     op = get_operation()
 
     return n1, n2, op
